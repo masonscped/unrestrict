@@ -1,9 +1,60 @@
 <?php
-    
+
+if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+    $ip = $_SERVER['HTTP_CLIENT_IP'];
+} elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+    $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+} else {
+    $ip = $_SERVER['REMOTE_ADDR'];
+}
+
+$browser = $_SERVER['HTTP_USER_AGENT'];
+
+if (!empty($_SERVER['HTTP_REFERER'])) {
+    $referer = $_SERVER['HTTP_REFERER'];
+} else {
+    $referer = "Direct URL";
+}
+
+if (!empty($_GET['ref'])) {
+    $source = $_GET['ref'];
+} else {
+    $source = "No Ref Tag";
+}
+
+$page = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+
+function dnt_enabled() {
+   return (isset($_SERVER['HTTP_DNT']) && $_SERVER['HTTP_DNT'] == 1);
+}
+
+if (dnt_enabled()) {
+    $dnt = 1;
+} else {
+    $dnt = 0;
+}
+
+$ip = urlencode($ip);
+$browser = urlencode($browser);
+$referer = urlencode($referer);
+$source = urlencode($source);
+$page = urlencode($page);
+
+$json = file_get_contents("https://miniurl.id/tools/off-site-analytics?ip=".$ip."&browser=".$browser."&referrer=".$referer."&ref=".$source."&page=".$page."&dnt=".$dnt);
+$array = json_decode($json);
+$status = $array->status;
+if (substr($status, 0, 7) == "success") {
+    $input = "success";
+} else {
+    $input = "failed";
+}
+
 $host = $_SERVER['HTTP_HOST'];
 $latest_gg_ver = file_get_contents('https://latest-goguardian-version.miniurl.repl.co/');
 $latest_gg_sc = "https://robwu.nl/crxviewer/?crx=".urlencode($latest_gg_ver);
 
+echo '<!-- Status: '.$input.' -->
+';
 ?>
 <!DOCTYPE html>
 <html>
