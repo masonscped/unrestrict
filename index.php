@@ -1446,20 +1446,20 @@ $latest_gg_sc = "https://robwu.nl/crxviewer/?crx=".urlencode($latest_gg_ver);
                 <div id="AFF" class="tabcontentunrestrict">
                   <h3>Affiliate Links</h3>
                   <br>
-                  <a href="https://miniurl.id/aads" target="_blank" title="Brave">A-Ads</a><br>
-                  <a href="https://miniurl.id/ardetamedia" target="_blank" title="Brave">Ardetamedia</a><br>
-                  <a href="https://miniurl.id/niagahoster" target="_blank" title="Brave">Niagahoster</a><br>
-                  <a href="https://miniurl.id/freebitcoin" target="_blank" title="Brave">FreeBitco.in</a><br>
+                  <a href="https://miniurl.id/aads" target="_blank" title="A-Ads">A-Ads</a><br>
+                  <a href="https://miniurl.id/ardetamedia" target="_blank" title="Ardetamedia">Ardetamedia</a><br>
+                  <a href="https://miniurl.id/niagahoster" target="_blank" title="Niagahoster">Niagahoster</a><br>
+                  <a href="https://miniurl.id/freebitcoin" target="_blank" title="FreeBitco.in">FreeBitco.in</a><br>
                   <a href="https://miniurl.id/bravebrowser" target="_blank" title="Brave">Brave</a><br>
-                  <a href="https://miniurl.id/skrill" target="_blank" title="Brave">Skrill</a><br>
-                  <a href="https://miniurl.id/buzzbreak" target="_blank" title="Brave">BuzzBreak</a><br>
-                  <a href="https://miniurl.id/shutterstock" target="_blank" title="Brave">ShutterStock</a><br>
-                  <a href="https://miniurl.id/windscribe" target="_blank" title="Brave">Windscribe</a><br>
-                  <a href="https://miniurl.id/myIM3" target="_blank" title="Brave">myIM3</a><br>
-                  <a href="https://miniurl.id/000webhost" target="_blank" title="Brave">000webhost</a><br>
-                  <a href="https://miniurl.id/shopback" target="_blank" title="Brave">Shopback</a><br>
-                  <a href="https://miniurl.id/popslide" target="_blank" title="Brave">Popslide</a><br>
-                  <a href="https://miniurl.id/honeygain" target="_blank" title="Brave">Honeygain</a>
+                  <a href="https://miniurl.id/skrill" target="_blank" title="Skrill">Skrill</a><br>
+                  <a href="https://miniurl.id/buzzbreak" target="_blank" title="BuzzBreak">BuzzBreak</a><br>
+                  <a href="https://miniurl.id/shutterstock" target="_blank" title="ShutterStock">ShutterStock</a><br>
+                  <a href="https://miniurl.id/windscribe" target="_blank" title="Windscribe">Windscribe</a><br>
+                  <a href="https://miniurl.id/myIM3" target="_blank" title="myIM3">myIM3</a><br>
+                  <a href="https://miniurl.id/000webhost" target="_blank" title="000webhost">000webhost</a><br>
+                  <a href="https://miniurl.id/shopback" target="_blank" title="Shopback">Shopback</a><br>
+                  <a href="https://miniurl.id/popslide" target="_blank" title="Popslide">Popslide</a><br>
+                  <a href="https://miniurl.id/honeygain" target="_blank" title="Honeygain">Honeygain</a>
                 </div>
             </div>            
             <div style="padding-bottom: 160px;">
