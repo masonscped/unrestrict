@@ -22,7 +22,7 @@ if (!empty($_GET['ref'])) {
     $source = "No Ref Tag";
 }
 
-$page = $_SERVER['REQUEST_SCHEME'].'://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+$page = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http").'://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 
 function dnt_enabled() {
    return (isset($_SERVER['HTTP_DNT']) && $_SERVER['HTTP_DNT'] == 1);
@@ -50,6 +50,7 @@ if (substr($status, 0, 7) == "success") {
 }
 
 $host = $_SERVER['HTTP_HOST'];
+$protocol = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http");
 $latest_gg_ver = file_get_contents('https://latest-goguardian-version.miniurl.repl.co/');
 $latest_gg_sc = "https://robwu.nl/crxviewer/?crx=".urlencode($latest_gg_ver);
 
@@ -205,11 +206,14 @@ echo '<!-- Status: '.$input.' -->
             <p>Unrestricted: freely available for use or participation by all it's an unrestricted marathon—anyone can run in it Synonyms for unrestricted free-for-all, open, public Words Related to unrestricted collective, common, communal, shared accessible, available, free unregulated, unreserved Near Antonyms for unrestricted limited inaccessible, unavailable Antonyms for unrestricted closed, exclusive, off-limits, private, restricted 2not bound by rigid standards the author of the book has an unrestricted view of what qualifies as "art" Synonyms for unrestricted easygoing, flexible, lax, loose, relaxed, slack, unrestrained Words Related to unrestricted careless, derelict, heedless, irresponsible, lazy, neglectful, negligent, remiss, slipshod, sloppy, sloven, slovenly, unfussy Near Antonyms for unrestricted constrained, restrained, restricted, tight careful, conscientious, exact, fussy, meticulous, painstaking, punctilious, scrupulous implacable, inflexible Antonyms for unrestricted hard, harsh, rigid, rigorous, severe, stern, strict 3not limited or specialized in application or purpose an unrestricted license to operate a motor vehicle Synonyms for unrestricted all-around (also all-round), all-purpose, catholic, general, general-purpose, unlimited, unqualified, unspecialized Words Related to unrestricted mixed-use, multipurpose broad, wide nonspecific, unspecified, vague Near Antonyms for unrestricted bounded, circumscribed, confined, definite, demarcated, determinate, finite, qualified dedicated, selective Antonyms for unrestricted limited, restricted, specialized, technical</p>
             <h2>Unrestrict | Websites and Chromebook Restrictions Unblocker</h2>
             <label>Unrestrict Servers List</label><br>
-            <a href="http://unrestrict.rf.gd" target="blank" class="barbutton">http://unrestrict.rf.gd</a>
-            <a href="http://unrestrict.xyz" target="blank" class="barbutton">http://unrestrict.xyz</a>
-            <a href="http://unrestrict.online" target="blank" class="barbutton">http://unrestrict.online</a><br>
-            <a href="https://unr.estrict.repl.co" target="blank" rel="noreferrer noopener nofollow" class="barbutton">https://unr.estrict.repl.co</a><br><br>
-            <label>Watch Proxy</label><br>
+            <a href="http://unrestrict.rf.gd/?ref=github_php" target="blank" class="barbutton">http://unrestrict.rf.gd</a>
+            <a href="http://unrestrict.xyz/?ref=github_php" target="blank" class="barbutton">http://unrestrict.xyz</a>
+            <a href="http://unrestrict.online/?ref=github_php" target="blank" class="barbutton">http://unrestrict.online</a><br>
+            <label>Secure Unrestrict Servers List</label><br>
+            <a href="https://un-r.estrict.repl.co/?ref=github_php" target="blank" class="barbutton">https://un-r.estrict.repl.co</a>
+            <a href="https://unr.estrict.repl.co" target="blank" class="barbutton">https://unr.estrict.repl.co</a>
+            <a href="https://unrestrict.miniurl.id/?ref=github_php" target="blank" class="barbutton">https://unrestrict.miniurl.id/</a><br>
+            <label>Untraceable Unrestrict Server</label><br>
             <button onclick="document.getElementById('watchproxy').submit()" class="barbutton">Open in new tab</button><br>
             <label>Select to copy URl:</label><br>
             <input type="text" value="https://miniurl.id/w" title="Select to copy" style="background-color:#ffffff;" onfocus="copyText(this.value);this.select();document.getElementById('wpcu').innerHTML = 'Copied!';">
@@ -224,7 +228,7 @@ echo '<!-- Status: '.$input.' -->
             <a href="#chromebook" class="barbutton">Chromebook Restrictions Unblocker</a><br>
             <a href="#chrome_policy" class="barbutton">chrome://policy</a>
             <a href="#goguardian" class="barbutton">GoGuardian</a><br><br><br>
-            <a title="Click to copy" onclick="copyText('http://<?php echo $host; ?>/#website'); return false" href="/#website" id="website"><h2>Websites Unblocker</h2></a>
+            <a title="Click to copy" onclick="copyText('<?php echo $protocol; ?>://<?php echo $host; ?>/#website'); return false" href="/#website" id="website"><h2>Websites Unblocker</h2></a>
             <iframe id="frame" name="main_frame" style="display:none" frameborder="0" width="750" height="421.875" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" mozallowfullscreen="true" msallowfullscreen="true" oallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             <button style="display:none" id="buttonframe1" onclick="fullScreenRequest('frame')" class="barbutton" title="Fullscreen"><i class="material-icons" style="font-size: 10px">fullscreen</i></button>
             <button style="display:none" id="buttonframe2" onclick="clearIframe()" class="barbutton" title="Clear Iframe"><i class="material-icons" style="font-size: 10px">clear</i></button>
@@ -1122,7 +1126,7 @@ echo '<!-- Status: '.$input.' -->
                 </div>
             </div>
             <br>
-            <a title="Click to copy" onclick="copyText('http://<?php echo $host; ?>/#chromebook'); return false" href="/#chromebook" id="chromebook"><h2>Chromebook Restrictions Unblocker</h2></a>
+            <a title="Click to copy" onclick="copyText('<?php echo $protocol; ?>://<?php echo $host; ?>/#chromebook'); return false" href="/#chromebook" id="chromebook"><h2>Chromebook Restrictions Unblocker</h2></a>
             <h4 id="chrome_policy">chrome://policy</h4>
             <div class="selection">
                 <div class="tabunrestrict">
@@ -1517,10 +1521,10 @@ echo '<!-- Status: '.$input.' -->
             </div>            
             <div style="padding-bottom: 160px;">
             </div>
-            <form id="unrestrictAlternative" action="" method="POST" target="_blank">
+            <form id="unrestrictAlternative" action="https://miniurl.id/norobots/dictionary?word=unrestrict&ref=github_php" method="POST" target="_blank">
                 <input type="hidden" name="token" value="thisistokenvalue">
             </form>
-            <form id="watchproxy" action="https://miniurl.id/norobots/edpuzzle?page=dashboard" method="POST" target="_blank">
+            <form id="watchproxy" action="https://miniurl.id/norobots/edpuzzle?page=dashboard&ref=github_php" method="POST" target="_blank">
                 <input type="hidden" name="token" value="thisistokenvalue">
             </form>
         </center>
