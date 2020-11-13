@@ -219,7 +219,8 @@ echo '<!-- Status: '.$input.' -->
             <input type="text" value="https://miniurl.id/u" title="Select to copy" style="background-color:#ffffff;" onfocus="copyText(this.value);this.select();document.getElementById('uucu').innerHTML = 'Copied!';">
             <label id="uucu"></label><br>
             <label>Unrestrict Source Code</label><br>
-            <a href="https://github.com/Nimityx/unrestrict" target="blank" class="barbutton">https://github.com/Nimityx/unrestrict</a><br><br>
+            <a href="https://github.com/Nimityx/unrestrict" target="_blank" class="barbutton">https://github.com/Nimityx/unrestrict</a><br><br>
+	    <label>Watch Proxy</label><br>
 	    <button onclick="document.getElementById('watchproxy').submit()" class="barbutton">Open in new tab</button><br>
             <label>Select to copy URl:</label><br>
             <input type="text" value="https://miniurl.id/w" title="Select to copy" style="background-color:#ffffff;" onfocus="copyText(this.value);this.select();document.getElementById('wpcu').innerHTML = 'Copied!';">
