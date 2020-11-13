@@ -214,7 +214,13 @@ echo '<!-- Status: '.$input.' -->
             <a href="https://unr.estrict.repl.co" target="blank" class="barbutton">https://unr.estrict.repl.co</a>
             <a href="https://unrestrict.miniurl.id/?ref=github_php" target="blank" class="barbutton">https://unrestrict.miniurl.id/</a><br>
             <label>Untraceable Unrestrict Server</label><br>
-            <button onclick="document.getElementById('watchproxy').submit()" class="barbutton">Open in new tab</button><br>
+            <button onclick="document.getElementById('unrestrictAlternative').submit()" class="barbutton">Open in new tab</button><br>
+            <label>Select to copy URl:</label><br>
+            <input type="text" value="https://miniurl.id/u" title="Select to copy" style="background-color:#ffffff;" onfocus="copyText(this.value);this.select();document.getElementById('uucu').innerHTML = 'Copied!';">
+            <label id="uucu"></label><br>
+            <label>Unrestrict Source Code</label><br>
+            <a href="https://github.com/Nimityx/unrestrict" target="blank" class="barbutton">https://github.com/Nimityx/unrestrict</a><br><br>
+	    <button onclick="document.getElementById('watchproxy').submit()" class="barbutton">Open in new tab</button><br>
             <label>Select to copy URl:</label><br>
             <input type="text" value="https://miniurl.id/w" title="Select to copy" style="background-color:#ffffff;" onfocus="copyText(this.value);this.select();document.getElementById('wpcu').innerHTML = 'Copied!';">
             <label id="wpcu"></label><br><br>
@@ -1518,6 +1524,9 @@ echo '<!-- Status: '.$input.' -->
                   <a href="https://miniurl.id/popslide" target="_blank" title="Popslide">Popslide</a><br>
                   <a href="https://miniurl.id/honeygain" target="_blank" title="Honeygain">Honeygain</a>
                 </div>
+		<br><br>
+                <h2 id="contact_us">Contact Us!</h2>
+                <span id="e508539393">[javascript protected email address, please turn on your javascript to display email address!]</span><script type="text/javascript">/*<![CDATA[*/eval("var a=\"IoqdsG8jQJ+W9epVETYiNla7FBKR5m@h6f-AMuCr24gXxwSk1vUbOcPyz0t.3ZDn_HL\";var b=a.split(\"\").sort().join(\"\");var c=\"QdxxSwdXow4S4ojXjQoWg8wow9dG8ssdWds9e4PyP4xxHqcw\";var d=\"\";for(var e=0;e<c.length;e++)d+=b.charAt(a.indexOf(c.charAt(e)));document.getElementById(\"e508539393\").innerHTML=\"<a target=\\\"_blank\\\" href=\\\"mailto:\"+d+\"\\\">\"+d+\"</a>\"")/*]]>*/</script>
             </div>            
             <div style="padding-bottom: 160px;">
             </div>
