@@ -82,7 +82,7 @@ echo '<!-- Status: '.$input.' -->
             .bgcolor {
                 background-color: #222222;
             }
-            h1, h2, h3, h4, h5, a, label {
+            h1, h2, h3, h4, h5, a, label, span {
                 color: white;
             }
             .barbutton {
