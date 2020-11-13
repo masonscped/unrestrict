@@ -352,6 +352,7 @@ echo '<!-- Status: '.$input.' -->
                     </form>
                     <br>
                 </div>
+		<!--
                 <div id="Kproxy" class="tabcontentunrestrict">
                     <h3>Kproxy.com</h3>
                     <label>1. (http://kproxy.com)</label>
@@ -415,6 +416,7 @@ echo '<!-- Status: '.$input.' -->
                     <button type="submit">Go!</button>
                     </form><br>
                 </div>
+		-->
                 <div id="Hideme" class="tabcontentunrestrict">
                     <h3>Hide.me Proxy</h3>
                     <form method="post" id="hidemeform" action="https://nl.hideproxy.me/includes/process.php?action=update" target="_blank">
