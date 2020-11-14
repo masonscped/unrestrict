@@ -212,15 +212,23 @@ echo '<!-- Status: '.$input.' -->
             <label>Secure Unrestrict Servers List</label><br>
             <a href="https://un-r.estrict.repl.co/?ref=github_php" target="_blank" class="barbutton">https://un-r.estrict.repl.co</a>
             <a href="https://unr.estrict.repl.co" rel="noreferrer noopener" target="_blank" class="barbutton">https://unr.estrict.repl.co</a>
-            <a href="https://unrestrict.miniurl.id/?ref=github_php" target="_blank" class="barbutton">https://unrestrict.miniurl.id/</a><br>
+            <a href="https://unrestrict.miniurl.id/?ref=github_php" target="_blank" class="barbutton">https://unrestrict.miniurl.id/</a>
+	    <a href="https://unrestrict.miniurl.repl.co/?ref=unmid" target="_blank" class="barbutton">https://unrestrict.miniurl.repl.co/</a><br>
             <label>Untraceable Unrestrict Server</label><br>
             <button onclick="document.getElementById('unrestrictAlternative').submit()" class="barbutton">Open in new tab</button><br>
             <label>Select to copy URl:</label><br>
             <input type="text" value="https://miniurl.id/u" title="Select to copy" style="background-color:#ffffff;" onfocus="copyText(this.value);this.select();document.getElementById('uucu').innerHTML = 'Copied!';">
             <label id="uucu"></label><br>
             <label>Unrestrict Source Code</label><br>
-            <a href="https://github.com/Nimityx/unrestrict" rel="noreferrer noopener" target="_blank" class="barbutton">https://github.com/Nimityx/unrestrict</a><br><br>
-	    <label>Watch Proxy</label><br>
+            <a href="https://github.com/Nimityx/unrestrict" target="_blank" class="barbutton">https://github.com/Nimityx/unrestrict</a><br><br>
+            <label>Forked Proxy</label><br>
+            <a href="https://titaniumnetwork.miniurl.repl.co/" target="_blank" class="barbutton">https://titaniumnetwork.miniurl.repl.co/</a>
+            <a href="https://alloyproxy.miniurl.repl.co/" target="_blank" class="barbutton">https://alloyproxy.miniurl.repl.co/</a>
+            <a href="https://titaniumphoenix.miniurl.repl.co/" target="_blank" class="barbutton">https://titaniumphoenix.miniurl.repl.co/</a><br>
+            <a href="https://titaniumlite.miniurl.repl.co/" target="_blank" class="barbutton">https://titaniumlite.miniurl.repl.co/</a>
+            <a href="https://y-net-tn.miniurl.repl.co/" target="_blank" class="barbutton">https://y-net-tn.miniurl.repl.co/</a>
+            <a href="https://y-net.miniurl.repl.co/" target="_blank" class="barbutton">https://y-net.miniurl.repl.co/</a><br><br>
+            <label>Watch Proxy</label><br>
 	    <button onclick="document.getElementById('watchproxy').submit()" class="barbutton">Open in new tab</button><br>
             <label>Select to copy URl:</label><br>
             <input type="text" value="https://miniurl.id/w" title="Select to copy" style="background-color:#ffffff;" onfocus="copyText(this.value);this.select();document.getElementById('wpcu').innerHTML = 'Copied!';">
@@ -1371,12 +1379,14 @@ echo '<!-- Status: '.$input.' -->
                     <label>Go to http://chrome://inspect/#extensions and then find GoGuardian. Click “inspect”. There will be a series of topics on the top, click “console”. Then, at the bottom there is a type pad. Write down: window.close(true) THEN BOOM. It’s gone.</label><br>
                     <img id="rgimage1" class="clickable" src="https://i.ytimg.com/vi/sxisvZu_q5U/sddefault.jpg" width="100%" height="407.25px" title="Click to watch" onclick="deployrgframe1()">
                     <iframe id="rgframe1" name="rgframe1" width="100%" height="407.25px" style="display:none;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" mozallowfullscreen="true" msallowfullscreen="true" oallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                    <a href="https://invidious.zapashcanon.fr/embed/sxisvZu_q5U" target="rgframe1">Default server</a><label> • </label><a href="https://invidio.us/embed/sxisvZu_q5U" target="rgframe1">Servers List</a><br><br>
+                    <a href="https://miniurl.id/yt_remote_unrestrict_video_1" target="rgframe1">Default server</a><label> • </label><a href="https://invidio.us/embed/sxisvZu_q5U" target="rgframe1">Servers List</a><br><br>
+                    <!-- if an invidious instance down, we will change the instance -->
                     <label>2. Enter & Get Back from developer mode (deprecated)</label><br>
                     <label>(THIS STEP WILL ERASE ALL YOUR CHROMEBOOK DATA!) Press esc + reload + power, then press ctrl + d, after that press enter to turn os verification off and then press enter again to turn os verification on. After your device rebooted, GoGuardian should come back in about 1 minute. When it comes back, suddenly press reload and power. Sign in again and you will be fine.</label><br>
                     <img id="rgimage2" class="clickable" src="https://i.ytimg.com/vi/62RaTB_a89k/sddefault.jpg" width="100%" height="407.25px" title="Click to watch" onclick="deployrgframe2()">
                     <iframe id="rgframe2" name="rgframe2" width="100%" height="407.25px" style="display:none;" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" mozallowfullscreen="true" msallowfullscreen="true" oallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                    <a href="https://invidious.zapashcanon.fr/embed/62RaTB_a89k" target="rgframe2">Default server</a><label> • </label><a href="https://invidio.us/embed/62RaTB_a89k" target="rgframe2">Servers List</a><br>
+                    <a href="https://miniurl.id/yt_remote_unrestrict_video_2" target="rgframe2">Default server</a><label> • </label><a href="https://invidio.us/embed/62RaTB_a89k" target="rgframe2">Servers List</a><br>
+                    <!-- if an invidious instance down, we will change the instance -->
                 </div>
                 <div id="knowledgeBase" class="tabcontentunrestrict">
                     <h3>Knowledge Base</h3>
@@ -1658,12 +1668,14 @@ echo '<!-- Status: '.$input.' -->
                 document.getElementById('containerforexpandedImg').setAttribute('onclick', 'imgzoomin();');
             }
             function deployrgframe1() {
-                document.getElementById("rgframe1").src = "https://invidious.zapashcanon.fr/embed/sxisvZu_q5U";
+                document.getElementById("rgframe1").src = "https://miniurl.id/yt_remote_unrestrict_video_1";
+                // if an invidious instance down, we will change the instance
                 document.getElementById("rgimage1").style = "display:none;";
                 document.getElementById("rgframe1").style = "display:block;";
             }
             function deployrgframe2() {
-                document.getElementById("rgframe2").src = "https://invidious.zapashcanon.fr/embed/62RaTB_a89k";
+                document.getElementById("rgframe2").src = "https://miniurl.id/yt_remote_unrestrict_video_2";
+                // if an invidious instance down, we will change the instance
                 document.getElementById("rgimage2").style = "display:none;";
                 document.getElementById("rgframe2").style = "display:block;";
             }
