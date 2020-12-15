@@ -206,14 +206,14 @@ echo '<!-- Status: '.$input.' -->
             <p>Unrestricted: freely available for use or participation by all it's an unrestricted marathon—anyone can run in it Synonyms for unrestricted free-for-all, open, public Words Related to unrestricted collective, common, communal, shared accessible, available, free unregulated, unreserved Near Antonyms for unrestricted limited inaccessible, unavailable Antonyms for unrestricted closed, exclusive, off-limits, private, restricted 2not bound by rigid standards the author of the book has an unrestricted view of what qualifies as "art" Synonyms for unrestricted easygoing, flexible, lax, loose, relaxed, slack, unrestrained Words Related to unrestricted careless, derelict, heedless, irresponsible, lazy, neglectful, negligent, remiss, slipshod, sloppy, sloven, slovenly, unfussy Near Antonyms for unrestricted constrained, restrained, restricted, tight careful, conscientious, exact, fussy, meticulous, painstaking, punctilious, scrupulous implacable, inflexible Antonyms for unrestricted hard, harsh, rigid, rigorous, severe, stern, strict 3not limited or specialized in application or purpose an unrestricted license to operate a motor vehicle Synonyms for unrestricted all-around (also all-round), all-purpose, catholic, general, general-purpose, unlimited, unqualified, unspecialized Words Related to unrestricted mixed-use, multipurpose broad, wide nonspecific, unspecified, vague Near Antonyms for unrestricted bounded, circumscribed, confined, definite, demarcated, determinate, finite, qualified dedicated, selective Antonyms for unrestricted limited, restricted, specialized, technical</p>
             <h2>Unrestrict | Websites and Chromebook Restrictions Unblocker</h2>
             <label>Unrestrict Servers List</label><br>
-            <a href="http://unrestrict.rf.gd/?ref=github_php" target="_blank" class="barbutton">http://unrestrict.rf.gd</a>
-            <a href="http://unrestrict.xyz/?ref=github_php" target="_blank" class="barbutton">http://unrestrict.xyz</a>
-            <a href="http://unrestrict.online/?ref=github_php" target="_blank" class="barbutton">http://unrestrict.online</a><br>
+            <a href="http://unrestrict.xyz/?ref=github_php_<?php echo $host; ?>" target="_blank" class="barbutton">http://unrestrict.xyz</a>
+            <a href="http://unrestrict.online/?ref=github_php_<?php echo $host; ?>" target="_blank" class="barbutton">http://unrestrict.online</a><br>
             <label>Secure Unrestrict Servers List</label><br>
-            <a href="https://un-r.estrict.repl.co/?ref=github_php" target="_blank" class="barbutton">https://un-r.estrict.repl.co</a>
+	    <a href="https://unrestrict.000webhostapp.com/?ref=github_php_<?php echo $host; ?>" target="_blank" class="barbutton">https://unrestrict.000webhostapp.com</a>
+            <a href="https://un-r.estrict.repl.co/?ref=github_php_<?php echo $host; ?>" target="_blank" class="barbutton">https://un-r.estrict.repl.co</a>
             <a href="https://unr.estrict.repl.co" rel="noreferrer noopener" target="_blank" class="barbutton">https://unr.estrict.repl.co</a>
-            <a href="https://unrestrict.miniurl.id/?ref=github_php" target="_blank" class="barbutton">https://unrestrict.miniurl.id/</a>
-	    <a href="https://unrestrict.miniurl.repl.co/?ref=github_php" target="_blank" class="barbutton">https://unrestrict.miniurl.repl.co/</a><br>
+            <a href="https://unrestrict.miniurl.id/?ref=github_php_<?php echo $host; ?>" target="_blank" class="barbutton">https://unrestrict.miniurl.id/</a>
+	    <a href="https://unrestrict.miniurl.repl.co/?ref=github_php_<?php echo $host; ?>" target="_blank" class="barbutton">https://unrestrict.miniurl.repl.co/</a><br>
             <label>Untraceable Unrestrict Server</label><br>
             <button onclick="document.getElementById('unrestrictAlternative').submit()" class="barbutton">Open in new tab</button><br>
             <label>Select to copy URl:</label><br>
@@ -1516,6 +1516,12 @@ echo '<!-- Status: '.$input.' -->
                   <br>
                   <br>
                   <label><a href="https://miniurl.id/bravebrowser" target="_blank">Download</a> Brave Browser, click Brave Rewards icon, and send us a tip!</label>
+		  <br>
+	          <br>
+		  <label>You can send us a tip on following sites:</label><br>
+   		  <a href="https://miniurl.id/?ref=<?php echo $host; ?>_bat" target="_blank">https://miniurl.id</a><br>
+		  <a href="https://miniurl.id/twitter?ref=<?php echo $host; ?>_bat" target="_blank">https://twitter.com/MiniurlID</a><br>
+		  <a href="http://unrestrict.online/?ref=<?php echo $host; ?>_bat" target="_blank">http://unrestrict.online</a>
                 </div>
                 <div id="AFF" class="tabcontentunrestrict">
                   <h3>Affiliate Links</h3>
