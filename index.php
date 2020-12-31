@@ -525,6 +525,11 @@ echo '<!-- Status: '.$input.' -->
                     <form action="https://videoproxy.miniurl.repl.co/" method="get" target="_blank">
                     <input placeholder="Enter URL" type="url" required autocomplete="off" autocapitalize="off" autocorrect="off" name="url" value="https://">
                     <button type="submit">Go!</button>
+                    </form>
+                    <label>2. (https://youtube-downloader3.herokuapp.com/)</label>
+                    <form action="https://youtube-downloader3.herokuapp.com/stream.php" method="get" target="_blank">
+                    <input placeholder="Enter URL" type="url" required autocomplete="off" autocapitalize="off" autocorrect="off" name="url" value="https://">
+                    <button type="submit">Go!</button>
                     </form><br>
                     <h3>Youtube Video Proxy</h3>
                     <label>1. (https://miniurl.id/norobots/youtubeplayer)</label>
