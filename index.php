@@ -1152,7 +1152,7 @@ echo '<!-- Status: '.$input.' -->
                     <a href="https://titaniumphoenix.miniurl.repl.co/selection3.html?section=flash" rel="noreferrer noopener nofollow" target="_blank">Collection 1</a><br>
                     <a href="http://www.funhost.net/home/" rel="noreferrer noopener nofollow" target="_blank">Collection 2</a><br>
                     <a href="https://sites.google.com/site/subgfyfs/system/app/pages/sitemap/list" rel="noreferrer noopener nofollow" target="_blank">Collection 3</a><br>
-                    <a href="https://sites.google.com/site/subgfyfs/system/app/pages/sitemap/list" rel="noreferrer noopener nofollow" target="_blank">Collection 4</a><br>
+                    <a href="https://sites.google.com/site/forumaboutstuff/home/games-flash-required" rel="noreferrer noopener nofollow" target="_blank">Collection 4</a><br>
                     <a href="https://titaniumnetwork.org/s2c.html" rel="noreferrer noopener nofollow" target="_blank">Collection 5</a><br><br>
                 </div>
             </div>
