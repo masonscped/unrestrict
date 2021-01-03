@@ -699,7 +699,7 @@ echo '<!-- Status: '.$input.' -->
                     <a href="http://keepsaveit.com/audio-songs/" rel="noreferrer noopener nofollow" target="_blank">http://keepsaveit.com/audio-songs/</a><br><br>
                 </div>
 		<div id="Reddit" class="tabcontentunrestrict">
-                    <h3>Soundcloud Alternatives</h3>
+                    <h3>Reddit Alternatives</h3>
                     <a href="https://libredd.it/" rel="noreferrer noopener nofollow" target="_blank">https://libredd.it/</a><br>
 		    <a href="https://github.com/spikecodes/libreddit#instances" rel="noreferrer noopener nofollow" target="_blank">Libreddit Instances</a><br>
                     <a href="http://teddit.net/" rel="noreferrer noopener nofollow" target="_blank">http://teddit.net/</a><br><br>
