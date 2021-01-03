@@ -625,6 +625,7 @@ echo '<!-- Status: '.$input.' -->
                     <button class="tablinksunrestrict" onclick="openMethod(event, 'Instagram')">Instagram</button>
                     <button class="tablinksunrestrict" onclick="openMethod(event, 'Twitter')">Twitter</button>
                     <button class="tablinksunrestrict" onclick="openMethod(event, 'Soundcloud')">Soundcloud</button>
+		    <button class="tablinksunrestrict" onclick="openMethod(event, 'Reddit')">Reddit</button>
                 </div>
                 <div id="Google" class="tabcontentunrestrict">
                     <h3>Google Alternatives</h3>
@@ -642,6 +643,7 @@ echo '<!-- Status: '.$input.' -->
                 <div id="Youtube" class="tabcontentunrestrict">
                     <h3>Youtube Alternatives</h3>
                     <a href="https://invidio.us/" rel="noreferrer noopener nofollow" target="_blank">https://invidio.us/</a><br>
+		    <a href="https://github.com/iv-org/documentation/blob/master/Invidious-Instances.md" rel="noreferrer noopener nofollow" target="_blank">Invidious Instances</a><br>
                     <a href="https://invidious.snopyta.org/" rel="noreferrer noopener nofollow" target="_blank">https://invidious.snopyta.org/</a><br>
                     <a href="https://invidious.kavin.rocks/" rel="noreferrer noopener nofollow" target="_blank">https://invidious.kavin.rocks/</a><br>
                     <a href="https://yewtu.be/" rel="noreferrer noopener nofollow" target="_blank">https://yewtu.be/</a><br>
@@ -665,6 +667,7 @@ echo '<!-- Status: '.$input.' -->
                     <h3>Instagram Alternatives</h3>
                     <a href="https://imginn.com" rel="noreferrer noopener nofollow" target="_blank">https://imginn.com</a><br>
                     <a href="https://bibliogram.art/" rel="noreferrer noopener nofollow" target="_blank">https://bibliogram.art/</a><br>
+		    <a href="https://git.sr.ht/~cadence/bibliogram-docs/tree/master/docs/Instances.md" rel="noreferrer noopener nofollow" target="_blank">Bibliogram Instances</a><br>
                     <a href="https://bibliogram.snopyta.org" rel="noreferrer noopener nofollow" target="_blank">https://bibliogram.snopyta.org</a><br>
                     <a href="https://imgund.com/" rel="noreferrer noopener nofollow" target="_blank">https://imgund.com/</a><br>
                     <a href="https://imgolo.com/" rel="noreferrer noopener nofollow" target="_blank">https://imgolo.com/</a><br>
@@ -684,6 +687,7 @@ echo '<!-- Status: '.$input.' -->
                 <div id="Twitter" class="tabcontentunrestrict">
                     <h3>Twitter Alternatives</h3>
                     <a href="https://nitter.net/" rel="noreferrer noopener nofollow" target="_blank">https://nitter.net/</a><br>
+		    <a href="https://github.com/zedeus/nitter/wiki/Instances" rel="noreferrer noopener nofollow" target="_blank">Nitter Instances</a><br>
                     <a href="https://nitter.snopyta.org/" rel="noreferrer noopener nofollow" target="_blank">https://nitter.snopyta.org/</a><br>
                     <a href="https://nitter.nixnet.services/" rel="noreferrer noopener nofollow" target="_blank">https://nitter.nixnet.services/</a><br>
                     <a href="https://nitter.fdn.fr/" rel="noreferrer noopener nofollow" target="_blank">https://nitter.fdn.fr/</a><br>
@@ -693,6 +697,13 @@ echo '<!-- Status: '.$input.' -->
                     <h3>Soundcloud Alternatives</h3>
                     <a href="https://www.socialdown.com/sc/soundcloud-downloader/" rel="noreferrer noopener nofollow" target="_blank">https://www.socialdown.com/sc/soundcloud-downloader/</a><br>
                     <a href="http://keepsaveit.com/audio-songs/" rel="noreferrer noopener nofollow" target="_blank">http://keepsaveit.com/audio-songs/</a><br><br>
+                </div>
+		<div id="Reddit" class="tabcontentunrestrict">
+                    <h3>Soundcloud Alternatives</h3>
+                    <a href="https://libredd.it/" rel="noreferrer noopener nofollow" target="_blank">https://libredd.it/</a><br>
+		    <a href="https://github.com/spikecodes/libreddit#instances" rel="noreferrer noopener nofollow" target="_blank">Libreddit Instances</a><br>
+                    <a href="http://teddit.net/" rel="noreferrer noopener nofollow" target="_blank">http://teddit.net/</a><br><br>
+		    <a href="https://codeberg.org/teddit/teddit#instances" rel="noreferrer noopener nofollow" target="_blank">Teddit Instances</a><br><br>
                 </div>
             </div>
             <br>
