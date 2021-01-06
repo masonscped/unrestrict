@@ -12,7 +12,7 @@ Contents:
 - Games
 - Chromebook Restrictions Unblocker
 
-Unrestrict Servers:
+Unrestrict Instances:
 - https://unrestrict.miniurl.id/
 - https://unrestrict.000webhostapp.com/
 - https://unrestrict.miniurl.repl.co/
