@@ -13,6 +13,7 @@ Contents:
 - Chromebook Restrictions Unblocker
 
 Unrestrict Instances:
+- https://miniurl.id/u
 - https://unrestrict.miniurl.id/
 - https://unrestrict.000webhostapp.com/
 - https://unrestrict.miniurl.repl.co/
