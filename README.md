@@ -21,5 +21,6 @@ Unrestrict Instances:
 - https://unr.estrict.repl.co/
 - http://unrestrict.xyz/
 - http://unrestrict.online/
+- https://nimityx.github.io/tools/unrestrict.html
 
 Download the HTML file or the PHP file
