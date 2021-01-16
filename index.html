@@ -1348,9 +1348,9 @@
                 <div id="knowledgeBase" class="tabcontentunrestrict">
                     <h3>Knowledge Base</h3>
                     <label>Latest GoGuardian Source Code (Nov 13th 2020) :</label><br>
-                    <a href="https://robwu.nl/crxviewer/?crx=https%3A%2F%2Fcrx.goguardian.com%2Fextension-m-3.0.4988.1-stable-crx2.crx" rel="noreferrer noopener nofollow" target="_blank">https://robwu.nl/crxviewer/?crx=https%3A%2F%2Fcrx.goguardian.com%2Fextension-m-3.0.4988.1-stable-crx2.crx</a><br><br>
+                    <a id="lggsc" href="https://robwu.nl/crxviewer/?crx=https%3A%2F%2Fcrx.goguardian.com%2Fextension-m-3.0.5116.1-stable-crx2.crx" rel="noreferrer noopener nofollow" target="_blank">https://robwu.nl/crxviewer/?crx=https%3A%2F%2Fcrx.goguardian.com%2Fextension-m-3.0.5116.1-stable-crx2.crx</a><br><br>
                     <label>Latest GoGuardian Extension (Nov 13th 2020) :</label><br>
-                    <a href="https://crx.goguardian.com/extension-m-3.0.4988.1-stable-crx2.crx" rel="noreferrer noopener nofollow">https://crx.goguardian.com/extension-m-3.0.4988.1-stable-crx2.crx</a><br><br>
+                    <a id="lggext" href="https://crx.goguardian.com/extension-m-3.0.5116.1-stable-crx2.crx" rel="noreferrer noopener nofollow">https://crx.goguardian.com/extension-m-3.0.5116.1-stable-crx2.crx</a><br><br>
                     <label>Latest GoGuardian Version</label><br>
                     <a href="https://ext.goguardian.com/stable.xml" rel="noreferrer noopener nofollow" target="_blank">https://ext.goguardian.com/stable.xml</a><br><br>
                     <label>GoGuardian Overview</label><br>
@@ -1512,6 +1512,18 @@
             </form>
         </center>
         <script>
+	    function attachReached(item) {
+                document.querySelector("#lggsc").href = "https://robwu.nl/crxviewer/?crx=" + encodeURIComponent(item);
+                document.querySelector("#lggsc").innerHTML = "https://robwu.nl/crxviewer/?crx=" + encodeURIComponent(item);
+                document.querySelector("#lggext").href = item;
+                document.querySelector("#lggext").innerHTML = item;
+            }
+            const proxyurl = "https://cors-anywhere.herokuapp.com/";
+            const urlggsc = "https://latest-goguardian-version.miniurl.repl.co";
+            fetch(proxyurl + urlggsc)
+            .then(response => response.text())
+            .then(contents => attachReached(contents))
+            .catch(() => console.log("Can’t access " + urlggsc + " response. Blocked by browser?"));
 	    var protocol = window.location.protocol;
             var hostname = location.hostname;
             document.getElementById('website').setAttribute("onclick", "copyText('" + protocol + "//" + hostname + "/#website'); return false;");
