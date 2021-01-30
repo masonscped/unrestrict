@@ -23,4 +23,5 @@ Websites and Chromebook Restrictions Unblocker in one page
 - http://unrestrict.online/
 - https://nimityx.github.io/tools/unrestrict.html
 
+## Install
 Download the HTML file or the PHP file
