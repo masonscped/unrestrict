@@ -15,12 +15,12 @@ Websites and Chromebook Restrictions Unblocker in one page
 ## Instances
 - https://miniurl.id/u
 - https://unrestrict.miniurl.id/
-- https://unrestrict.000webhostapp.com/
+- https://unrestrict.000webhostapp.com/ (deprecated)
 - https://unrestrict.miniurl.repl.co/
 - https://un-r.estrict.repl.co/
 - https://unr.estrict.repl.co/
-- http://unrestrict.xyz/
-- http://unrestrict.online/
+- http://unrestrict.xyz/ (deprecated)
+- http://unrestrict.online/ (deprecated)
 - https://nimityx.github.io/tools/unrestrict.html
 
 ## Install
